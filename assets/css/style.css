@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: rgb(25, 28, 30);
+    }
+    
+    .container {
+      width: 300px;
+      margin: 20px auto;
+      text-align: center;
+      background: rgb(89, 98, 106);
+      color: white;
+      padding: 10px;
+    }
+    
+    h1 {
+      text-align: center;
+      color: white;
+      border-bottom: 2px solid blue;
+    }
+    h2,
+    label {
+      background-color: rgb(89, 98, 106);
+    }
+    input,
+    select {
+      margin: 10px auto;
+      width: 200px;
+      padding: 10px;
+      background-color: white;
+      border-radius: 5px;
+      border: none;
+      text-align: center;
+    }
+    input {
+      width: 180px;
+    }
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(89, 98, 106);
+    }
+    button {
+      width: 200px;
+      margin: 10px auto;
+      color: white;
+      border-radius: 5px;
+      border: none;
+      padding: 10px;
+      background: rgb(46, 201, 239);
+    }
